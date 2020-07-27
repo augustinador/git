@@ -1,0 +1,40 @@
+{
+  "name": "Model training",
+  "color": "#0F786B",
+  "items": [
+    {
+      "objectId": "nBZPwK0t",
+      "objectType": "SAVED_MODEL"
+    },
+    {
+      "objectId": "train_Prediction__LOGISTIC_REGRESSION__on_text_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "text_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_text_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "rax_text",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_rax_text",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "Ooh3NmMl",
+      "objectType": "MANAGED_FOLDER"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

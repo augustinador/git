@@ -1,0 +1,97 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 0,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": -1,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "timeout": -1
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Tokenizer",
+      "params": {
+        "inCol": "text",
+        "sortAlphabetically": false,
+        "normalize": false,
+        "language": "english",
+        "clearStopWords": false,
+        "operation": "TO_JSON",
+        "stem": false
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ArrayFold",
+      "params": {
+        "column": "text"
+      },
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "columnWidthsByName": {
+    "proba_motorcycles": 169,
+    "proba_mideast": 162,
+    "proba_hockey": 162,
+    "proba_forsale": 162,
+    "proba_x": 162,
+    "proba_atheism": 162,
+    "proba_misc": 162,
+    "proba_christian": 162,
+    "proba_space": 162,
+    "proba_med": 162,
+    "filename": 155,
+    "proba_graphics": 162,
+    "proba_electronics": 169,
+    "proba_baseball": 162,
+    "proba_guns": 162,
+    "proba_crypt": 162,
+    "prediction": 100,
+    "proba_autos": 162,
+    "text": 300,
+    "proba_hardware": 162
+  },
+  "sorting": [],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}

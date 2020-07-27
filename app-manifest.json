@@ -1,0 +1,69 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": true,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [
+    {
+      "sectionTitle": "Upload unlabelled files to be classified",
+      "sectionText": "Upload txt files",
+      "tiles": [
+        {
+          "folderId": "rvlcMx50",
+          "behavior": "GO_TO_FOLDER",
+          "type": "MANAGED_FOLDER_ADD_FILE",
+          "prompt": "Upload files in folder"
+        },
+        {
+          "scenarioId": "CLASSIFY_DOCS",
+          "type": "SCENARIO_RUN",
+          "prompt": "Run classification"
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Classification Results",
+      "tiles": [
+        {
+          "dashboardId": "2JZBp7V",
+          "type": "DASHBOARD_LINK",
+          "prompt": "Report"
+        },
+        {
+          "dashboardId": "2JZBp7V",
+          "format": {
+            "paperSize": "A4",
+            "orientation": "LANDSCAPE",
+            "fileType": "PDF"
+          },
+          "type": "DOWNLOAD_DASHBOARD_EXPORT",
+          "prompt": "Download pdf report"
+        }
+      ]
+    }
+  ],
+  "label": "news_nlp",
+  "shortDesc": "The template *news_nlp* was created by Administrator on Jul 23rd 2020",
+  "tags": [],
+  "imgPattern": 5,
+  "showInitials": false,
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS"
+}

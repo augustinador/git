@@ -1,0 +1,32 @@
+{
+  "name": "Unlabelled Data preparation",
+  "color": "#31439C",
+  "items": [
+    {
+      "objectId": "compute_rax_text_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "raw_text_test",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_text_prepared_1",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "test_text_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "C9H1g8IY",
+      "objectType": "MANAGED_FOLDER"
+    }
+  ],
+  "shared": [],
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

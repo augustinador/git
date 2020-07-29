@@ -150,7 +150,7 @@
       }
     }
   },
-  "name": "news_nlp",
+  "name": "news_nlp (tmp)",
   "imgPattern": 3,
   "showInitials": false,
   "metrics": {
@@ -208,11 +208,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 12,
+    "versionNumber": 13,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1596030977150
+    "lastModifiedOn": 1596030985816
   },
   "creationTag": {
     "versionNumber": 0,
@@ -221,7 +221,7 @@
     },
     "lastModifiedOn": 1595426644350
   },
-  "shortDesc": "The project *news_nlp* was created by Administrator on Jul 22nd 2020",
+  "shortDesc": "The project *news_nlp* was created by Administrator on Jul 22nd 2020\nThe project *NEWS_NLP_TMP* was copied from *NEWS_NLP* by Administrator on Jul 29th 2020",
   "tags": [
     "imported",
     "duplicated"
